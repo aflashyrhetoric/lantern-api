@@ -9,6 +9,18 @@
 
 ## KANBAN:DONE
 
+## Log of inconsistencies while setting up
+
+- `make up` will run the sails up command
+- `make reset` will reset the containers
+- Postgres uses a 5432 default port, we update to 5632 to make the ports work correctly - when setting up Tableplus or whatever, use 5632.
+
+
+
+
+
+---------------- ---------------- ---------------- ---------------- ---------------- ---------------- 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
