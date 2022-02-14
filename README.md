@@ -18,7 +18,7 @@
 - DB_CONNECTION=pgsql
 - DB_HOST=pgsql
 - DB_PORT=5432
-Then, to run artisan commands, go into the Docker interactive terminal.
+Then, to run artisan commands that are relating to the state of the database, just go into the Docker interactive terminal and run them there. You can get there by opening the Docker Desktop app and clicking the CLI button for the corresponding container (which in our case is the Laravel test container). Or, you can just use the direct docker syntax, like docker -it whatever.
 
 
 
