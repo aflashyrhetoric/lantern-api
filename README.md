@@ -13,7 +13,12 @@
 
 - `make up` will run the sails up command
 - `make reset` will reset the containers
-- Postgres uses a 5432 default port, we update to 5632 to make the ports work correctly - when setting up Tableplus or whatever, use 5632.
+
+## Values of env
+- DB_CONNECTION=pgsql
+- DB_HOST=pgsql
+- DB_PORT=5432
+Then, to run artisan commands, go into the Docker interactive terminal.
 
 
 
